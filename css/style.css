@@ -408,4 +408,44 @@ nav {
   content: "";
   display: none;
 }
+
+.burger__active {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .burger__active {
+    -webkit-transition: 2s;
+    transition: 2s;
+    background-color: #fff;
+    position: absolute;
+    width: 100vh;
+    height: 100vh;
+    z-index: -1;
+    display: block;
+  }
+}
+
+.burger__active_list {
+  padding-top: 95px;
+}
+
+.burger__active_list li {
+  margin-bottom: 30px;
+  font-size: 22px;
+  line-height: 110%;
+  font-weight: 500;
+}
+
+.burger__active_list li:nth-child(4) {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.trans {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
 /*# sourceMappingURL=style.css.map */
