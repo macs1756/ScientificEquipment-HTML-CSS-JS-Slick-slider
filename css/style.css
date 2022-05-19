@@ -6,6 +6,10 @@
 }
 
 body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   font-family: "Rubik";
   font-weight: 400;
   color: #4F5665;
