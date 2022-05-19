@@ -415,12 +415,12 @@ nav {
 
 @media (max-width: 600px) {
   .burger__active {
-    -webkit-transition: 2s;
-    transition: 2s;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
     background-color: #fff;
     position: absolute;
     width: 100vh;
-    height: 100vh;
+    height: 400px;
     z-index: -1;
     display: block;
   }
@@ -445,7 +445,7 @@ nav {
 .trans {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
-  -webkit-transition: 2s;
-  transition: 2s;
+  -webkit-transition: all 2s linear;
+  transition: all 2s linear;
 }
 /*# sourceMappingURL=style.css.map */
