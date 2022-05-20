@@ -33,4 +33,3 @@ equipmentContentBtn.addEventListener("click", function(){
 	equipmentMobile.classList.toggle("opa__list");
 });
 
-
