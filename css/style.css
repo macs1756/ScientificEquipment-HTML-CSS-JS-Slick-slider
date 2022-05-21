@@ -675,7 +675,6 @@ nav {
           flex-direction: column;
   overflow: hidden;
   position: relative;
-  padding: 0 60px;
 }
 
 @media (max-width: 1050px) {
@@ -686,7 +685,7 @@ nav {
 
 @media (max-width: 900px) {
   .equipment__slider_body {
-    width: 400px;
+    width: 395px;
   }
 }
 
