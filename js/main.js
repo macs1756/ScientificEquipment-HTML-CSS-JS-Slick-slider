@@ -33,3 +33,19 @@ equipmentContentBtn.addEventListener("click", function(){
 	equipmentMobile.classList.toggle("opa__list");
 });
 
+
+
+//const num65 = prompt("number");
+
+
+$(document).ready(function(){
+	$(".equipment__slider_body").slick({
+		autoplay: true,
+		dots: true,
+		autoplaySpeed: 3000,
+	});
+});
+
+
+
+
