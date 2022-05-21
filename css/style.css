@@ -531,6 +531,12 @@ nav {
   }
 }
 
+@media (max-width: 600px) {
+  .equipment_info_slider {
+    padding-left: 0px;
+  }
+}
+
 .info__slider_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -610,11 +616,18 @@ nav {
 
 .info__slider_btn {
   margin-top: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
 }
 
 @media (max-width: 600px) {
   .info__slider_btn {
-    padding-left: 35px;
+    padding-left: 0px;
   }
 }
 
