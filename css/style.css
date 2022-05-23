@@ -1186,8 +1186,10 @@ nav {
   }
 }
 
-.occupation__text_btn:hover {
-  background-color: #1FB765;
+@media (min-width: 600px) {
+  .occupation__text_btn:hover {
+    background-color: #1FB765;
+  }
 }
 
 .occupation__text_btn:active {
