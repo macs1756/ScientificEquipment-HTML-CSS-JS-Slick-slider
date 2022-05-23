@@ -1178,6 +1178,14 @@ nav {
   margin-bottom: 20px;
 }
 
+@media (max-width: 600px) {
+  .occupation__text_btn {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
 .occupation__text_btn:hover {
   background-color: #1FB765;
 }
@@ -1195,6 +1203,22 @@ nav {
     display: block;
     -ms-flex-item-align: start;
         align-self: flex-start;
+  }
+}
+
+@media (max-width: 767px) {
+  .occupation__text {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 /*# sourceMappingURL=style.css.map */
