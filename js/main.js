@@ -40,12 +40,33 @@ equipmentContentBtn.addEventListener("click", function(){
 
 $(document).ready(function(){
 	$(".equipment__slider_body").slick({
-		autoplay: true,
+//		autoplay: true,
 		dots: true,
-		autoplaySpeed: 3000,
+///		autoplaySpeed: 3000,
 	});
+});
+
+const payClose = document.querySelector("#payClose");
+const payObject = document.querySelector("#payObject");
+const payActive = document.querySelector("#payActive");
+
+
+payClose.addEventListener("click", function(){
+			payObject.classList.add("none");
+});
+
+payActive.addEventListener("click", function(){
+	payObject.classList.remove("none");
 });
 
 
 
 
+
+
+
+const checkBox = document.querySelector("#checkBox");
+
+checkBox.addEventListener("click", function(){
+			checkBox.classList.toggle("checkbox__active");
+});
