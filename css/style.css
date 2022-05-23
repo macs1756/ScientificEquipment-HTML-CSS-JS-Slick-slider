@@ -1540,7 +1540,7 @@ nav {
 
 @media (max-width: 600px) {
   .footer {
-    padding: 40px 0 20px 0;
+    padding: 40px 0 0px 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
