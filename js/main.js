@@ -40,9 +40,9 @@ equipmentContentBtn.addEventListener("click", function(){
 
 $(document).ready(function(){
 	$(".equipment__slider_body").slick({
-//		autoplay: true,
+		autoplay: true,
 		dots: true,
-///		autoplaySpeed: 3000,
+		autoplaySpeed: 3000,
 	});
 });
 
