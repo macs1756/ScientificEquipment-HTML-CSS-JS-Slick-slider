@@ -856,8 +856,8 @@ nav {
 }
 
 .equipment__pay {
+  overflow-y: auto;
   position: absolute;
-  scroll: auto;
   top: 85px;
   right: 0;
   z-index: 5;
