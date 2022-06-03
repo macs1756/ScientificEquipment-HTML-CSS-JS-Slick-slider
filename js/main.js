@@ -70,3 +70,16 @@ const checkBox = document.querySelector("#checkBox");
 checkBox.addEventListener("click", function(){
 			checkBox.classList.toggle("checkbox__active");
 });
+
+
+
+id="btnListNone"
+
+const btnListNone = document.querySelectorAll("#btnListNone");
+
+btnListNone.forEach(function(item){
+	item.addEventListener("click", function(){
+		burgerActive.classList.toggle("trans");
+		burgerBtn.classList.toggle("btnClose");
+	});
+});

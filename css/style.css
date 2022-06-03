@@ -6,7 +6,7 @@
   padding: 0 10px;
 }
 
-body {
+body, html {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -14,9 +14,10 @@ body {
   font-family: "Rubik";
   font-weight: 400;
   color: #4F5665;
+  scroll-behavior: smooth;
 }
 
-body a {
+body a, html a {
   color: #4F5665;
   cursor: url(../img/cursor.svg), pointer;
   -webkit-user-select: none;
@@ -25,7 +26,7 @@ body a {
           user-select: none;
 }
 
-body li {
+body li, html li {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -439,8 +440,8 @@ nav {
 
 @media (max-width: 600px) {
   .burger__active {
-    -webkit-transition: all 2s linear;
-    transition: all 2s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
     background-color: #fff;
     position: absolute;
     width: 100vh;
@@ -475,8 +476,8 @@ nav {
 .trans {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
-  -webkit-transition: all 2s linear;
-  transition: all 2s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .equipment__active_burger {
